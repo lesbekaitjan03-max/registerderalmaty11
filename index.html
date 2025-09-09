@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>QR регистрация</title>
+  <style>
+    body { font-family: Arial, sans-serif; text-align: center; padding: 40px; }
+    .container {
+      max-width: 400px; margin: auto; background: #fff; padding: 20px;
+      border-radius: 12px; box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+  <h2>QR для регистрации</h2>
+  <!-- QR-код, ведущий на form.html -->
+<img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://ВАШ_НИК.github.io/registration-site/form.html" alt="QR Code">
+  <p>Отсканируйте QR-код для перехода на форму</p>
+</div>
+</body>
+</html>
